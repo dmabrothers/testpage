@@ -1,6 +1,6 @@
 @font-face {
   font-family: Archive;
-  src: url("/fonts/Archive.otf") format("opentype");
+  src: url("https://dmabrothers.github.io/testpage/fonts/Archive.otf") format("opentype");
 }
 html,
 body {
@@ -132,7 +132,7 @@ h2.tel-mobile > a:focus {
   margin-top: 20px;
 }
 .wrap.wrap-drivers {
-  background: url("/driver.png") no-repeat;
+  background: url("https://dmabrothers.github.io/testpage/driver.png") no-repeat;
   -moz-background-size: 100%;
   /* Firefox 3.6+ */
   -webkit-background-size: 100%;
@@ -161,19 +161,19 @@ h2.tel-mobile > a:focus {
   background-repeat: no-repeat;
 }
 .wrap.wrap-drivers .driver-property.ico8 {
-  background-image: url('/images/ico-08@2x.png');
+  background-image: url('https://dmabrothers.github.io/testpage/images/ico-08@2x.png');
 }
 .wrap.wrap-drivers .driver-property.ico9 {
-  background-image: url('/images/ico-09@2x.png');
+  background-image: url('https://dmabrothers.github.io/testpage/images/ico-09@2x.png');
   background-size: 64px 36px;
   background-position-y: 10px;
 }
 .wrap.wrap-drivers .driver-property.ico10 {
-  background-image: url('/images/ico-10@2x.png');
+  background-image: url('https://dmabrothers.github.io/testpage/images/ico-10@2x.png');
   background-position-y: 5px;
 }
 .wrap.wrap-drivers .driver-property.ico11 {
-  background-image: url('/images/ico-11@2x.png');
+  background-image: url('https://dmabrothers.github.io/testpage/images/ico-11@2x.png');
   background-size: 56px 56px;
 }
 .container-content {
@@ -207,17 +207,17 @@ h2.tel-mobile > a:focus {
   letter-spacing: -0.4px;
 }
 .container-content .cars-block .specs .spec.spec-01 {
-  background: url('/images/ico-05@2x.png') no-repeat;
+  background: url('https://dmabrothers.github.io/testpage/images/ico-05@2x.png') no-repeat;
   background-position: 4px 2px;
   background-size: 26px 23px;
 }
 .container-content .cars-block .specs .spec.spec-02 {
-  background: url('/images/ico-06@2x.png') no-repeat;
+  background: url('https://dmabrothers.github.io/testpage/images/ico-06@2x.png') no-repeat;
   background-position: 4px 2px;
   background-size: 24px 28px;
 }
 .container-content .cars-block .specs .spec.spec-03 {
-  background: url('/images/ico-07@2x.png') no-repeat;
+  background: url('https://dmabrothers.github.io/testpage/images/ico-07@2x.png') no-repeat;
   background-position: 4px 2px;
   background-size: 24px 26px;
 }
@@ -242,22 +242,22 @@ div.promo p {
   font-style: italic;
 }
 div.promo.promo-01 {
-  background: url('/images/ico-01@2x.png') no-repeat;
+  background: url('https://dmabrothers.github.io/testpage/images/ico-01@2x.png') no-repeat;
   background-position: top center;
   background-size: 96px 96px;
 }
 div.promo.promo-02 {
-  background: url('/images/ico-02@2x.png') no-repeat;
+  background: url('https://dmabrothers.github.io/testpage/images/ico-02@2x.png') no-repeat;
   background-position: center 12px;
   background-size: 84px 62px;
 }
 div.promo.promo-03 {
-  background: url('/images/ico-03@2x.png') no-repeat;
+  background: url('https://dmabrothers.github.io/testpage/images/ico-03@2x.png') no-repeat;
   background-position: center 7px;
   background-size: 84px 84px;
 }
 div.promo.promo-04 {
-  background: url('/images/ico-04@2x.png') no-repeat;
+  background: url('https://dmabrothers.github.io/testpage/images/ico-04@2x.png') no-repeat;
   background-position: center 5px;
   background-size: 76px 72px;
 }
@@ -290,6 +290,6 @@ div.promo.promo-04 {
 }
 .container-footer {
   padding-bottom: 350px;
-  background: url("/images/img-08@2x.png") no-repeat bottom center;
+  background: url("https://dmabrothers.github.io/testpage/images/img-08@2x.png") no-repeat bottom center;
   background-size: 307px 317px;
 }
