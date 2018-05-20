@@ -1,0 +1,295 @@
+@font-face {
+  font-family: Archive;
+  src: url("/fonts/Archive.otf") format("opentype");
+}
+html,
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: Archive, 'Open Sans', sans-serif;
+  color: #000;
+}
+h2 {
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+h3 {
+  font-size: 26px;
+  font-weight: 300;
+  font-style: normal;
+  font-family: 'Open Sans', sans-serif;
+}
+h1.tel {
+  margin-bottom: 0px;
+}
+h1.tel > a {
+  font-size: 72px;
+  color: #000;
+  text-decoration: none;
+}
+h1.tel > a:hover,
+h1.tel > a:acive,
+h1.tel > a:focus {
+  color: #000;
+}
+h1.tel:first-child {
+  padding-top: 80px;
+}
+h1.tel-mobile {
+  margin-bottom: 0px;
+}
+h1.tel-mobile > a {
+  color: #000;
+  text-decoration: none;
+}
+h1.tel-mobile > a:hover,
+h1.tel-mobile > a:acive,
+h1.tel-mobile > a:focus {
+  color: #000;
+}
+h1.tel-mobile:first-child {
+  padding-top: 20px;
+}
+h2.tel {
+  margin: 10px;
+  font-weight: normal;
+  margin-bottom: 0px;
+}
+h2.tel > a {
+  font-size: 54px;
+  color: #000;
+  text-decoration: none;
+}
+h2.tel > a:hover,
+h2.tel > a:acive,
+h2.tel > a:focus {
+  color: #000;
+}
+h2.tel-mobile {
+  margin: 10px;
+  font-weight: normal;
+  margin-bottom: 0px;
+}
+h2.tel-mobile > a {
+  color: #000;
+  text-decoration: none;
+}
+h2.tel-mobile > a:hover,
+h2.tel-mobile > a:acive,
+h2.tel-mobile > a:focus {
+  color: #000;
+}
+.wrap {
+  width: 100%;
+}
+.wrap.wrap-head {
+  background-image: linear-gradient(110deg, #ffcd00, #ff9f00);
+  min-height: 328px;
+  padding-bottom: 20px;
+}
+.wrap.wrap-head .navbar-fixed-top {
+  background-image: linear-gradient(110deg, #ffcd00, #ff9f00);
+  height: 75px;
+}
+.wrap.wrap-head .nav > li > a {
+  font-weight: 600;
+  color: #000;
+}
+.wrap.wrap-head .nav > li > a:focus,
+.wrap.wrap-head .nav > li > a:hover {
+  text-decoration: none;
+  background-color: transparent;
+}
+.wrap.wrap-head .nav.navbar-nav {
+  width: 100%;
+}
+.wrap.wrap-head .nav .navbar-brand {
+  width: 250px;
+  font-family: Archive, 'Open Sans', sans-serif;
+}
+.wrap.wrap-head .nav .navbar-brand > img {
+  width: 46px;
+  height: 46px;
+  float: left;
+  margin-right: 9px;
+}
+.wrap.wrap-head .container-head {
+  text-align: center;
+}
+.wrap.wrap-head .container-head .work-time {
+  font-style: italic;
+  font-size: 20px;
+  letter-spacing: -0.5px;
+}
+.wrap.wrap-head .container-head img.car {
+  width: 70%;
+  height: auto;
+  margin-top: 20px;
+}
+.wrap.wrap-drivers {
+  background: url("/driver.png") no-repeat;
+  -moz-background-size: 100%;
+  /* Firefox 3.6+ */
+  -webkit-background-size: 100%;
+  /* Safari 3.1+ Ð¸ Chrome 4.0+ */
+  -o-background-size: 100%;
+  /* Opera 9.6+ */
+  background-size: 100%;
+  /* Ð¡Ð¾Ð²Ñ€ÐµÐ¼ÐµÐ½Ð½Ñ‹Ðµ Ð±Ñ€Ð°ÑƒÐ·ÐµÑ€Ñ‹ */
+  min-height: 328px;
+  padding-bottom: 20px;
+}
+.wrap.wrap-drivers p {
+  font-family: 'Open Sans';
+  font-size: 16px;
+  font-weight: normal;
+  font-style: italic;
+}
+.wrap.wrap-drivers .driver-property {
+  height: 90px;
+  margin-top: 15px;
+  padding-top: 65px;
+  font-size: 20px;
+  font-weight: 300;
+  background-size: 56px 46px;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+.wrap.wrap-drivers .driver-property.ico8 {
+  background-image: url('/images/ico-08@2x.png');
+}
+.wrap.wrap-drivers .driver-property.ico9 {
+  background-image: url('/images/ico-09@2x.png');
+  background-size: 64px 36px;
+  background-position-y: 10px;
+}
+.wrap.wrap-drivers .driver-property.ico10 {
+  background-image: url('/images/ico-10@2x.png');
+  background-position-y: 5px;
+}
+.wrap.wrap-drivers .driver-property.ico11 {
+  background-image: url('/images/ico-11@2x.png');
+  background-size: 56px 56px;
+}
+.container-content {
+  text-align: center;
+  margin-bottom: 15px;
+}
+.container-content .cars-block {
+  text-align: left;
+}
+.container-content .cars-block p {
+  font-family: 'Open Sans';
+  font-size: 16px;
+  font-weight: normal;
+  font-style: italic;
+}
+.container-content .cars-block .specs {
+  width: 100%;
+  height: 80px;
+}
+.container-content .cars-block .specs .spec {
+  margin: 10px;
+  margin-top: 15px;
+  padding-top: 36px;
+  text-align: left;
+}
+.container-content .cars-block .specs .spec:first-child {
+  margin-left: 0px;
+}
+.container-content .cars-block .specs .spec p {
+  line-height: 2;
+  letter-spacing: -0.4px;
+}
+.container-content .cars-block .specs .spec.spec-01 {
+  background: url('/images/ico-05@2x.png') no-repeat;
+  background-position: 4px 2px;
+  background-size: 26px 23px;
+}
+.container-content .cars-block .specs .spec.spec-02 {
+  background: url('/images/ico-06@2x.png') no-repeat;
+  background-position: 4px 2px;
+  background-size: 24px 28px;
+}
+.container-content .cars-block .specs .spec.spec-03 {
+  background: url('/images/ico-07@2x.png') no-repeat;
+  background-position: 4px 2px;
+  background-size: 24px 26px;
+}
+.container-content .drivers-block p {
+  font-family: 'Open Sans';
+  font-size: 16px;
+  font-weight: normal;
+  font-style: italic;
+  line-height: 1.63;
+  letter-spacing: -0.4px;
+  text-align: center;
+}
+div.promo {
+  margin-top: 15px;
+  padding-top: 100px;
+  height: 180px;
+}
+div.promo h4 {
+  font-family: 'Open Sans';
+}
+div.promo p {
+  font-style: italic;
+}
+div.promo.promo-01 {
+  background: url('/images/ico-01@2x.png') no-repeat;
+  background-position: top center;
+  background-size: 96px 96px;
+}
+div.promo.promo-02 {
+  background: url('/images/ico-02@2x.png') no-repeat;
+  background-position: center 12px;
+  background-size: 84px 62px;
+}
+div.promo.promo-03 {
+  background: url('/images/ico-03@2x.png') no-repeat;
+  background-position: center 7px;
+  background-size: 84px 84px;
+}
+div.promo.promo-04 {
+  background: url('/images/ico-04@2x.png') no-repeat;
+  background-position: center 5px;
+  background-size: 76px 72px;
+}
+.container-tariffs h4 {
+  font-size: 26px;
+  font-weight: 300;
+  font-style: normal;
+  font-family: 'Open Sans';
+}
+.container-tariffs strong {
+  font-family: Archive;
+  font-size: 32px;
+}
+.container-tariffs p {
+  font-size: 16px;
+  font-style: italic;
+}
+.container-tariffs .row {
+  text-align: left;
+}
+.container-tariffs .photo {
+  height: 250px;
+  overflow: visible;
+}
+.container-tariffs .text {
+  padding-top: 160px;
+  height: 200px;
+  padding-bottom: 160px;
+  margin-bottom: 100px;
+}
+.container-footer {
+  padding-bottom: 350px;
+  background: url("/images/img-08@2x.png") no-repeat bottom center;
+  background-size: 307px 317px;
+}
